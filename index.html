@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Alex Wadede | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header id="top">
+        <h1 class="logo">Juan Alex Wadede</h1>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME -->
+        <section id="home" class="hero">
+            <img src="profile. jpg" class="profile-img">
+            <div>
+                <h2>Hello, I'm Juan Alex Wadede</h2>
+                <p>BSc Software Development student at KCA University, Year 1. I love building simple, useful websites and apps that solve everyday problems.</p>
+                <a href="#projects" class="btn">View My Projects</a>
+                <a href="#contact" class="btn btn-outline">Contact Me</a>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about">
+            <h2>About Me</h2>
+            <p>I am a first-year BSc Software Development student. I am learning how the web works, from HTML structure to styling with CSS and programming with Python and Java.</p>
+            <h3>My Interests</h3>
+            <ul>
+                <li>Web Development</li>
+                <li>Mobile Apps</li>
+                <li>Problem Solving</li>
+                <li>Football & Music</li>
+            </ul>
+            <h3>My Education Journey</h3>
+            <ol>
+                <li>Primary & High School - Kenya</li>
+                <li>BSc Software Development - KCA University (Year 1, ongoing)</li>
+                <li>Self-learning: HTML, CSS, Python</li>
+            </ol>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills">
+            <h2>My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">HTML</div>
+                <div class="skill-card">CSS</div>
+                <div class="skill-card">Python</div>
+                <div class="skill-card">Java</div>
+                <div class="skill-card">SQL</div>
+            </div>
+
+            <h3>Skill Level</h3>
+            <table>
+                <tr><th>Skill</th><th>Level</th><th>Experience</th></tr>
+                <tr><td>HTML</td><td>Intermediate</td><td>Class projects</td></tr>
+                <tr><td>CSS</td><td>Intermediate</td><td>Class projects</td></tr>
+                <tr><td>Python</td><td>Beginner</td><td>University coursework</td></tr>
+                <tr><td>Java</td><td>Beginner</td><td>University coursework</td></tr>
+                <tr><td>SQL</td><td>Beginner</td><td>Database coursework</td></tr>
+            </table>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <h3>1. Calculator App</h3>
+                    <p>A simple calculator that adds, subtracts, multiplies and divides. Built to practise logic and user input.</p>
+                    <p><strong>Tools:</strong> Python / HTML & CSS</p>
+                    <a href="https://github.com/" target="_blank">View on GitHub →</a>
+                </article>
+                <article class="project-card">
+                    <h3>2. Library System</h3>
+                    <p>A system to record books, borrowers and return dates. Helps a small library stay organised.</p>
+                    <p><strong>Tools:</strong> Python, SQL</p>
+                    <a href="https://github.com/" target="_blank">View on GitHub →</a>
+                </article>
+                <article class="project-card">
+                    <h3>3. Alarm System</h3>
+                    <p>An alarm app where a user sets a time and gets a reminder. Built to practise time and condition logic.</p>
+                    <p><strong>Tools:</strong> Python / Java</p>
+                    <a href="https://github.com/" target="_blank">View on GitHub →</a>
+                </article>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:alexjuanwad@gmail.com">alexjuanwad@gmail.com</a></p>
+            <p>Location: Nairobi, Kenya</p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" placeholder="Write your message..." required></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Juan Alex Wadede. All rights reserved.</p>
+        <a href="#top">Back to Top ↑</a>
+    </footer>
+</body>
+</html>
