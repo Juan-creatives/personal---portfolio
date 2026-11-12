@@ -1,7 +1,7 @@
 # Personal Portfolio - Juan Alex Wadede
 
 A personal portfolio website built with HTML and CSS.
-BSc Software Development, Year 1 - KCA University.
+BSc Software Development, Year 1 - KCA University..
 
 ## Features
 - Home, About, Skills, Projects and Contact sections
